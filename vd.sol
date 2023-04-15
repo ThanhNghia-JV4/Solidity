@@ -21,5 +21,17 @@ contract Event{
     mapping (uint => string) userIdToName;                                                  
 
 }
+//ke thua 
+contract Doge {
+  function catchphrase() public returns (string memory) {
+    return "So Wow CryptoDoge";
+  }
+}
+
+contract BabyDoge is Doge {
+  function anotherCatchphrase() public returns (string memory) {
+    return "Such Moon BabyDoge";
+  }
+}
 
 //chi la vi du 
